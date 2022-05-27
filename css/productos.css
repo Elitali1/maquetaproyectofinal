@@ -1,0 +1,123 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    z-index: 2;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.card {
+    color: aliceblue;
+}
+
+.card-body {
+    background-color: rgb(66, 66, 66);
+}
+
+.tamañocard {
+    width: 250px;
+}
+
+
+h1 {
+    color: aliceblue;
+}
+
+.container {
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+body {
+    background-color: black;
+}
+
+.card-img-top {
+    width: auto;
+    height: auto;
+}
+
+
+h2 {
+    color: red;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dropdown-menu {
+    background-color: rgb(66, 66, 66);
+}
+
+.dropdown-item {
+    color: aliceblue;
+}
+
+@media (max-width: 546px) {
+    .tamañocard {
+        width: 150px;
+    }
+
+}
+
+.container-fluid1 {
+    background-color: black;
+    height: auto;
+    font-size: 40px;
+    text-align: start;
+    margin-left: 30px;
+
+}
+
+.mediosdepago {
+    background-color: black;
+    color: aliceblue;
+    margin-right: 30px;
+    margin-top: 10px;
+    float: right;
+    font-size: 25px;
+}
+
+h6 {
+    color: aliceblue;
+}
+
+.fa-facebook {
+    color: red
+}
+
+.fa-whatsapp {
+    color: red;
+}
+
+.fa-instagram {
+    color: red;
+}
+
+.fa-youtube {
+    color: red;
+}
+
+.derechos {
+    color: rgb(80, 80, 131);
+}

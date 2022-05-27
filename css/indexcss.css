@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+.navbar{
+    z-index: 2;
+    position: fixed;    
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+h2{
+    color: red;
+    animation-duration: 2s;
+    animation-name: aparecer;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes aparecer{
+  0% {  
+      opacity: 0;
+    }
+  100% { 
+      opacity: 1;
+    }
+}
+.dropdown-menu{
+    background-color: rgb(66, 66, 66);
+}
+.dropdown-item{
+    color: aliceblue;
+}
+.carousel-indicators li{
+    width: 30x;
+    height: 30px;
+    background-color: red;
+    border-radius: 100%;
+}
+.carousel-inner{
+    margin-top: 60px;
+}
+.carousel-indicators{
+    z-index: 1;
+}
+.carousel-control-prev-icon{
+    background-color: red;
+}
+.carousel-control-next-icon{
+    background-color: red;
+}
+.slide img {
+    object-fit: cover;
+    height: 600px;
+    width: 100%;
+}
+.container-fluid{
+    text-align: center;
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+h6{
+    color: aliceblue;
+}
+p{
+    color: aliceblue;
+}
+
+.container-fluid1{
+    background-color: black;
+    height: auto;
+    font-size: 40px;
+    text-align: start;
+    margin-left: 30px;
+    
+}
+.mediosdepago{
+    background-color: black;
+    color: aliceblue;
+    margin-right: 30px;
+    margin-top: 10px;
+    float:right;
+    font-size: 25px;
+}
+.fa-facebook{
+    color: red
+}
+.fa-whatsapp{
+    color:red;
+}
+.fa-instagram{
+    color: red;
+}
+.fa-youtube{
+    color: red;
+}
+.derechos{
+    color: rgb(80, 80, 131);
+}
+
